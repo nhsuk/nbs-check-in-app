@@ -6,7 +6,7 @@ export function Main() {
           <div className="nhsuk-grid-row">
             <div className="nhsuk-grid-column-two-thirds">
               <h1 className="nhsuk-heading-l focusable-header" tabIndex="-1">
-                Get ready to list
+                Get your list on
               </h1>
             </div>
           </div>
