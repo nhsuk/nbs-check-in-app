@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Header() {
   return (
     <header className="nhsuk-header nhsuk-header--transactional" role="banner">
