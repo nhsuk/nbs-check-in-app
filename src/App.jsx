@@ -7,7 +7,7 @@ export function App() {
   return (
     <>
       <Header />
-      <LocationIndicator locationName="Test location" />
+      <LocationIndicator locationName="Montague Road Surgery" />
       <Main />
       <Footer />
     </>
