@@ -1,17 +1,24 @@
-export function Main() {
+import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+export function Main({ name }) {
   return (
-    <>
-      <div className="nhsuk-width-container">
-        <main className="nhsuk-main-wrapper" id="maincontent" role="main">
-          <div className="nhsuk-grid-row">
-            <div className="nhsuk-grid-column-two-thirds">
-              <h1 className="nhsuk-heading-l focusable-header" tabIndex="-1">
-                Get your list on
-              </h1>
-            </div>
-          </div>
-        </main>
-      </div>
-    </>
+    <BrowserRouter>
+      <h1>Hello {name}</h1>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/users">Users</Link>
+        </li>
+      </ul>
+      <Routes>
+        <Route path="/" component={<p>Home</p>} />
+      </Routes>
+    </BrowserRouter>
   );
 }

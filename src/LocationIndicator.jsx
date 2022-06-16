@@ -1,3 +1,4 @@
+import React from "react";
 import "./LocationIndicator.scss";
 
 export function LocationIndicator({ locationName }) {
