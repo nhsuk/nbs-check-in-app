@@ -1,0 +1,65 @@
+// based on "logged in" header
+// https://github.com/nhsuk/nhsuk-service-manual-community-backlog/issues/192
+
+$border-colour: #aeb7bd;
+
+.location-indicator {
+  border-top: 10px solid $border-colour;
+  border-bottom: 1px solid $border-colour;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  &__container {
+    background-color: #fff;
+  }
+
+  &__navigation {
+    flex-shrink: 0;
+  }
+
+  &__nav-links {
+    list-style-type: none;
+    margin-bottom: 0;
+
+    @media (max-width: 768px) {
+      padding-left: 0;
+      width: 100%;
+    }
+  }
+
+  &__item {
+    display: inline-block;
+    margin-bottom: 0;
+    flex-shrink: 1;
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__content {
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 12px 16px 8px;
+    text-decoration: none;
+  }
+
+  &__link {
+    @extend .location-indicator__content;
+
+    &:hover:not(:focus) {
+      border-bottom: 4px solid #d8dde0;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}

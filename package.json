@@ -1,0 +1,22 @@
+{
+  "name": "check-in-app-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  }
+}
