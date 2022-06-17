@@ -19,7 +19,7 @@ const appointments = [
     bookingReference: 85793983,
     nhsNumber: 60347882,
     special: "under-16-overseas",
-    dateOfBirth: "1996-05-28T02:14:53 -01:00",
+    dateOfBirth: "1996-05-28T02:14:53",
   },
   {
     _id: "62acac459522af70552a9bb4",
@@ -29,7 +29,7 @@ const appointments = [
     bookingReference: 42587170,
     nhsNumber: 86382022,
     special: "hsc-worker",
-    dateOfBirth: "1977-06-11T11:41:52 -01:00",
+    dateOfBirth: "1977-06-11T11:41:52",
   },
   {
     _id: "62acac451497b06644cad511",
@@ -39,7 +39,7 @@ const appointments = [
     bookingReference: 26034922,
     nhsNumber: 51135314,
     special: "under-16-overseas",
-    dateOfBirth: "1936-12-05T05:03:12 -00:00",
+    dateOfBirth: "1936-12-05T05:03:12",
   },
   {
     _id: "62acac45423a33dbc860c502",
@@ -49,7 +49,7 @@ const appointments = [
     bookingReference: 45438844,
     nhsNumber: 10972477,
     special: "hsc-worker",
-    dateOfBirth: "1963-12-26T02:50:43 -00:00",
+    dateOfBirth: "1963-12-26T02:50:43",
   },
   {
     _id: "62acac4563641f3eb155859e",
@@ -59,7 +59,7 @@ const appointments = [
     bookingReference: 63259127,
     nhsNumber: 77358665,
     special: "immunosupressed",
-    dateOfBirth: "1971-08-13T06:09:14 -01:00",
+    dateOfBirth: "1971-08-13T06:09:14",
   },
   {
     _id: "62acac456eb237e461d2c083",
@@ -69,7 +69,7 @@ const appointments = [
     bookingReference: 11568830,
     nhsNumber: 88001033,
     special: "under-16-overseas",
-    dateOfBirth: "1986-03-03T07:18:31 -00:00",
+    dateOfBirth: "1986-03-03T07:18:31",
   },
   {
     _id: "62acac457ab17ccf23e77399",
@@ -79,7 +79,7 @@ const appointments = [
     bookingReference: 38585322,
     nhsNumber: 39057525,
     special: "no-additional-checks",
-    dateOfBirth: "1960-12-13T04:10:50 -00:00",
+    dateOfBirth: "1960-12-13T04:10:50",
   },
   {
     _id: "62acac455b1cb626ea8782db",
@@ -89,7 +89,7 @@ const appointments = [
     bookingReference: 94238428,
     nhsNumber: 44229739,
     special: "no-additional-checks",
-    dateOfBirth: "1986-06-29T09:28:50 -01:00",
+    dateOfBirth: "1986-06-29T09:28:50",
   },
   {
     _id: "62acac453ca03f9d4017f6b9",
@@ -99,7 +99,7 @@ const appointments = [
     bookingReference: 90874054,
     nhsNumber: 72627595,
     special: "no-additional-checks",
-    dateOfBirth: "1947-03-06T04:30:31 -00:00",
+    dateOfBirth: "1947-03-06T04:30:31",
   },
   {
     _id: "62acac45959121652218fabc",
@@ -109,7 +109,7 @@ const appointments = [
     bookingReference: 52192164,
     nhsNumber: 78995276,
     special: "no-additional-checks",
-    dateOfBirth: "1963-07-11T03:10:36 -01:00",
+    dateOfBirth: "1963-07-11T03:10:36",
   },
   {
     _id: "62acac45443187a755c26bd0",
@@ -119,7 +119,7 @@ const appointments = [
     bookingReference: 94364837,
     nhsNumber: 52990820,
     special: "immunosupressed",
-    dateOfBirth: "1968-04-22T07:13:17 -01:00",
+    dateOfBirth: "1968-04-22T07:13:17",
   },
   {
     _id: "62acac457427cc966b77b94d",
@@ -129,7 +129,7 @@ const appointments = [
     bookingReference: 10302681,
     nhsNumber: 95946416,
     special: "no-additional-checks",
-    dateOfBirth: "1963-11-21T04:45:13 -00:00",
+    dateOfBirth: "1963-11-21T04:45:13",
   },
   {
     _id: "62acac45ed4dca17e8e361dd",
@@ -139,7 +139,7 @@ const appointments = [
     bookingReference: 38251618,
     nhsNumber: 17393037,
     special: "no-additional-checks",
-    dateOfBirth: "2008-05-13T09:41:42 -01:00",
+    dateOfBirth: "2008-05-13T09:41:42",
   },
   {
     _id: "62acac45c50c00d528842844",
@@ -149,7 +149,7 @@ const appointments = [
     bookingReference: 16459353,
     nhsNumber: 89556443,
     special: "no-additional-checks",
-    dateOfBirth: "1962-12-28T06:15:19 -00:00",
+    dateOfBirth: "1962-12-28T06:15:19",
   },
   {
     _id: "62acac45f1bb02c1802e69d9",
@@ -159,7 +159,7 @@ const appointments = [
     bookingReference: 57476853,
     nhsNumber: 50521184,
     special: "under-16-overseas",
-    dateOfBirth: "1942-02-04T10:35:34 -01:00",
+    dateOfBirth: "1942-02-04T10:35:34",
   },
   {
     _id: "62acac45ceba34980a2790cb",
@@ -169,7 +169,7 @@ const appointments = [
     bookingReference: 50739097,
     nhsNumber: 48882876,
     special: "hsc-worker",
-    dateOfBirth: "2004-01-19T12:27:15 -00:00",
+    dateOfBirth: "2004-01-19T12:27:15",
   },
   {
     _id: "62acac45815be21e308f1b4c",
@@ -189,7 +189,7 @@ const appointments = [
     bookingReference: 94541266,
     nhsNumber: 41832377,
     special: "immunosupressed",
-    dateOfBirth: "2011-10-26T01:42:00 -01:00",
+    dateOfBirth: "2011-10-26T01:42:00",
   },
   {
     _id: "62acac459814330cd781cbd1",
@@ -199,7 +199,7 @@ const appointments = [
     bookingReference: 91785353,
     nhsNumber: 28041256,
     special: "hsc-worker",
-    dateOfBirth: "1983-08-31T09:44:33 -01:00",
+    dateOfBirth: "1983-08-31T09:44:33",
   },
   {
     _id: "62acac4554eb3c95e0fdaeaf",
@@ -209,7 +209,7 @@ const appointments = [
     bookingReference: 34415650,
     nhsNumber: 26138986,
     special: "immunosupressed",
-    dateOfBirth: "2000-05-30T11:44:17 -01:00",
+    dateOfBirth: "2000-05-30T11:44:17",
   },
   {
     _id: "62acac451a5856a68164094b",
@@ -219,7 +219,7 @@ const appointments = [
     bookingReference: 21372040,
     nhsNumber: 53977855,
     special: "under-16-overseas",
-    dateOfBirth: "1980-10-09T04:18:09 -01:00",
+    dateOfBirth: "1980-10-09T04:18:09",
   },
   {
     _id: "62acac45f66fb40c5991d75d",
@@ -229,7 +229,7 @@ const appointments = [
     bookingReference: 75973311,
     nhsNumber: 49344106,
     special: "no-additional-checks",
-    dateOfBirth: "2022-04-25T09:12:49 -01:00",
+    dateOfBirth: "2022-04-25T09:12:49",
   },
   {
     _id: "62acac4576c099ec2492d6f5",
@@ -239,7 +239,7 @@ const appointments = [
     bookingReference: 35612818,
     nhsNumber: 69328046,
     special: "hsc-worker",
-    dateOfBirth: "2000-07-31T04:29:03 -01:00",
+    dateOfBirth: "2000-07-31T04:29:03",
   },
   {
     _id: "62acac45d16e575d9f555f4a",
@@ -249,7 +249,7 @@ const appointments = [
     bookingReference: 25750382,
     nhsNumber: 75363870,
     special: "immunosupressed",
-    dateOfBirth: "1992-01-29T09:54:45 -00:00",
+    dateOfBirth: "1992-01-29T09:54:45",
   },
   {
     _id: "62acac45790bb63595234781",
@@ -259,7 +259,7 @@ const appointments = [
     bookingReference: 73139788,
     nhsNumber: 65361754,
     special: "immunosupressed",
-    dateOfBirth: "1975-12-20T08:38:47 -00:00",
+    dateOfBirth: "1975-12-20T08:38:47",
   },
   {
     _id: "62acac45481998e51ba1aa07",
@@ -269,7 +269,7 @@ const appointments = [
     bookingReference: 71208887,
     nhsNumber: 52288103,
     special: "no-additional-checks",
-    dateOfBirth: "1985-04-17T01:21:40 -01:00",
+    dateOfBirth: "1985-04-17T01:21:40",
   },
   {
     _id: "62acac45dab6c89463db2a8d",
@@ -279,7 +279,7 @@ const appointments = [
     bookingReference: 10580382,
     nhsNumber: 47293631,
     special: "hsc-worker",
-    dateOfBirth: "2003-04-24T12:24:52 -01:00",
+    dateOfBirth: "2003-04-24T12:24:52",
   },
   {
     _id: "62acac45d595439a538fcaf8",
@@ -289,7 +289,7 @@ const appointments = [
     bookingReference: 20733696,
     nhsNumber: 95607741,
     special: "hsc-worker",
-    dateOfBirth: "1960-05-30T09:41:03 -01:00",
+    dateOfBirth: "1960-05-30T09:41:03",
   },
   {
     _id: "62acac459b7c4e8bf1dd4151",
@@ -299,7 +299,7 @@ const appointments = [
     bookingReference: 68964107,
     nhsNumber: 14317388,
     special: "immunosupressed",
-    dateOfBirth: "1990-04-07T01:51:24 -01:00",
+    dateOfBirth: "1990-04-07T01:51:24",
   },
   {
     _id: "62acac45b162544970f621aa",
@@ -309,7 +309,7 @@ const appointments = [
     bookingReference: 29285839,
     nhsNumber: 42546640,
     special: "immunosupressed",
-    dateOfBirth: "1931-11-05T05:45:40 -00:00",
+    dateOfBirth: "1931-11-05T05:45:40",
   },
   {
     _id: "62acac455a3210f7a584056d",
@@ -319,7 +319,7 @@ const appointments = [
     bookingReference: 46218949,
     nhsNumber: 23079300,
     special: "no-additional-checks",
-    dateOfBirth: "1993-04-13T09:09:39 -01:00",
+    dateOfBirth: "1993-04-13T09:09:39",
   },
   {
     _id: "62acac453587968b3b36a335",
@@ -329,7 +329,7 @@ const appointments = [
     bookingReference: 99447883,
     nhsNumber: 63728835,
     special: "immunosupressed",
-    dateOfBirth: "2011-10-25T07:37:42 -01:00",
+    dateOfBirth: "2011-10-25T07:37:42",
   },
   {
     _id: "62acac4569f7f25d92766873",
@@ -339,7 +339,7 @@ const appointments = [
     bookingReference: 75928053,
     nhsNumber: 47682642,
     special: "immunosupressed",
-    dateOfBirth: "1933-03-29T12:32:52 -00:00",
+    dateOfBirth: "1933-03-29T12:32:52",
   },
   {
     _id: "62acac452ae43be7dfa92f6d",
@@ -349,7 +349,7 @@ const appointments = [
     bookingReference: 80347598,
     nhsNumber: 80099343,
     special: "no-additional-checks",
-    dateOfBirth: "1998-04-04T01:19:01 -01:00",
+    dateOfBirth: "1998-04-04T01:19:01",
   },
   {
     _id: "62acac452a7edd0eff9d2941",
@@ -359,7 +359,7 @@ const appointments = [
     bookingReference: 92210462,
     nhsNumber: 18523749,
     special: "hsc-worker",
-    dateOfBirth: "1988-06-15T10:00:48 -01:00",
+    dateOfBirth: "1988-06-15T10:00:48",
   },
   {
     _id: "62acac4570765b36ca88117d",
@@ -369,7 +369,7 @@ const appointments = [
     bookingReference: 27078749,
     nhsNumber: 88919417,
     special: "immunosupressed",
-    dateOfBirth: "1986-02-25T09:45:14 -00:00",
+    dateOfBirth: "1986-02-25T09:45:14",
   },
   {
     _id: "62acac45f93c933d5f8bf03e",
@@ -379,7 +379,7 @@ const appointments = [
     bookingReference: 93934741,
     nhsNumber: 77356310,
     special: "under-16-overseas",
-    dateOfBirth: "1982-09-25T02:31:43 -01:00",
+    dateOfBirth: "1982-09-25T02:31:43",
   },
   {
     _id: "62acac45bf55249370b3f659",
@@ -389,7 +389,7 @@ const appointments = [
     bookingReference: 49156529,
     nhsNumber: 71920224,
     special: "under-16-overseas",
-    dateOfBirth: "1978-09-08T07:15:56 -01:00",
+    dateOfBirth: "1978-09-08T07:15:56",
   },
   {
     _id: "62acac4545052f43f6deb5c8",
@@ -409,7 +409,7 @@ const appointments = [
     bookingReference: 94669385,
     nhsNumber: 68890674,
     special: "immunosupressed",
-    dateOfBirth: "1949-01-30T07:44:47 -00:00",
+    dateOfBirth: "1949-01-30T07:44:47",
   },
   {
     _id: "62acac452d7d1c3274408707",
@@ -419,7 +419,7 @@ const appointments = [
     bookingReference: 73777619,
     nhsNumber: 32150380,
     special: "immunosupressed",
-    dateOfBirth: "1949-10-08T10:55:21 -01:00",
+    dateOfBirth: "1949-10-08T10:55:21",
   },
   {
     _id: "62acac458103b64122e87fa5",
@@ -429,7 +429,7 @@ const appointments = [
     bookingReference: 68993067,
     nhsNumber: 97433482,
     special: "hsc-worker",
-    dateOfBirth: "1942-11-19T11:58:41 -01:00",
+    dateOfBirth: "1942-11-19T11:58:41",
   },
   {
     _id: "62acac45b42cb48bdae745dd",
@@ -439,7 +439,7 @@ const appointments = [
     bookingReference: 24648841,
     nhsNumber: 52230543,
     special: "under-16-overseas",
-    dateOfBirth: "2003-02-27T02:54:26 -00:00",
+    dateOfBirth: "2003-02-27T02:54:26",
   },
   {
     _id: "62acac450717e189b357f24b",
@@ -449,7 +449,7 @@ const appointments = [
     bookingReference: 76364037,
     nhsNumber: 81474368,
     special: "under-16-overseas",
-    dateOfBirth: "1987-04-17T12:55:27 -01:00",
+    dateOfBirth: "1987-04-17T12:55:27",
   },
   {
     _id: "62acac45d08de75d90ca8a45",
@@ -459,7 +459,7 @@ const appointments = [
     bookingReference: 53162026,
     nhsNumber: 42286688,
     special: "under-16-overseas",
-    dateOfBirth: "1985-11-15T05:59:24 -00:00",
+    dateOfBirth: "1985-11-15T05:59:24",
   },
   {
     _id: "62acac45aad50f219aabc77a",
@@ -469,7 +469,7 @@ const appointments = [
     bookingReference: 87180274,
     nhsNumber: 24417965,
     special: "under-16-overseas",
-    dateOfBirth: "1971-05-21T12:26:57 -01:00",
+    dateOfBirth: "1971-05-21T12:26:57",
   },
   {
     _id: "62acac45334ee7894a1c6707",
@@ -479,7 +479,7 @@ const appointments = [
     bookingReference: 13603308,
     nhsNumber: 90890155,
     special: "under-16-overseas",
-    dateOfBirth: "1976-08-01T12:03:14 -01:00",
+    dateOfBirth: "1976-08-01T12:03:14",
   },
   {
     _id: "62acac45f15ee45a68f46432",
@@ -489,7 +489,7 @@ const appointments = [
     bookingReference: 85814772,
     nhsNumber: 82730325,
     special: "hsc-worker",
-    dateOfBirth: "1975-07-31T01:22:31 -01:00",
+    dateOfBirth: "1975-07-31T01:22:31",
   },
   {
     _id: "62acac45f1bbd37109d301d9",
@@ -499,7 +499,7 @@ const appointments = [
     bookingReference: 42631424,
     nhsNumber: 22855389,
     special: "no-additional-checks",
-    dateOfBirth: "2006-11-18T06:44:15 -00:00",
+    dateOfBirth: "2006-11-18T06:44:15",
   },
   {
     _id: "62acac456cfd511e2f9a24be",
@@ -509,7 +509,7 @@ const appointments = [
     bookingReference: 83833395,
     nhsNumber: 94221298,
     special: "under-16-overseas",
-    dateOfBirth: "1956-09-05T08:04:54 -01:00",
+    dateOfBirth: "1956-09-05T08:04:54",
   },
   {
     _id: "62acac45c633edf88c5f3ba1",
@@ -519,7 +519,7 @@ const appointments = [
     bookingReference: 60439141,
     nhsNumber: 86455462,
     special: "immunosupressed",
-    dateOfBirth: "1930-09-21T02:28:33 -01:00",
+    dateOfBirth: "1930-09-21T02:28:33",
   },
   {
     _id: "62acac45154b955eb369fdae",
@@ -529,7 +529,7 @@ const appointments = [
     bookingReference: 92098781,
     nhsNumber: 27079358,
     special: "under-16-overseas",
-    dateOfBirth: "1974-02-14T02:23:02 -00:00",
+    dateOfBirth: "1974-02-14T02:23:02",
   },
   {
     _id: "62acac45b42bd7e275caf3c1",
@@ -539,7 +539,7 @@ const appointments = [
     bookingReference: 47858974,
     nhsNumber: 16377913,
     special: "under-16-overseas",
-    dateOfBirth: "2016-12-12T12:09:19 -00:00",
+    dateOfBirth: "2016-12-12T12:09:19",
   },
   {
     _id: "62acac45e1c66deb43f4c321",
@@ -549,7 +549,7 @@ const appointments = [
     bookingReference: 73046709,
     nhsNumber: 78089783,
     special: "under-16-overseas",
-    dateOfBirth: "1938-05-26T04:47:46 -01:00",
+    dateOfBirth: "1938-05-26T04:47:46",
   },
   {
     _id: "62acac455a97839002f71077",
@@ -559,7 +559,7 @@ const appointments = [
     bookingReference: 38847413,
     nhsNumber: 48571946,
     special: "no-additional-checks",
-    dateOfBirth: "1997-07-12T11:54:31 -01:00",
+    dateOfBirth: "1997-07-12T11:54:31",
   },
   {
     _id: "62acac452081ce7f225dbfda",
@@ -569,7 +569,7 @@ const appointments = [
     bookingReference: 88456590,
     nhsNumber: 95776975,
     special: "hsc-worker",
-    dateOfBirth: "1943-03-22T04:46:02 -01:00",
+    dateOfBirth: "1943-03-22T04:46:02",
   },
   {
     _id: "62acac4541ef9f92ce122b36",
@@ -579,7 +579,7 @@ const appointments = [
     bookingReference: 13939077,
     nhsNumber: 99207029,
     special: "under-16-overseas",
-    dateOfBirth: "2011-08-01T11:09:42 -01:00",
+    dateOfBirth: "2011-08-01T11:09:42",
   },
   {
     _id: "62acac455a10661803193fb7",
@@ -589,7 +589,7 @@ const appointments = [
     bookingReference: 57852047,
     nhsNumber: 28593100,
     special: "hsc-worker",
-    dateOfBirth: "1933-01-19T08:24:18 -00:00",
+    dateOfBirth: "1933-01-19T08:24:18",
   },
   {
     _id: "62acac45e80646931d795221",
@@ -599,7 +599,7 @@ const appointments = [
     bookingReference: 43532487,
     nhsNumber: 19628324,
     special: "immunosupressed",
-    dateOfBirth: "1978-02-26T06:06:20 -00:00",
+    dateOfBirth: "1978-02-26T06:06:20",
   },
   {
     _id: "62acac450c9882518ef585ce",
@@ -609,7 +609,7 @@ const appointments = [
     bookingReference: 93917509,
     nhsNumber: 29516156,
     special: "no-additional-checks",
-    dateOfBirth: "1949-02-28T05:30:42 -00:00",
+    dateOfBirth: "1949-02-28T05:30:42",
   },
   {
     _id: "62acac4524bf9fa4596d069b",
@@ -619,7 +619,7 @@ const appointments = [
     bookingReference: 11167359,
     nhsNumber: 95730319,
     special: "no-additional-checks",
-    dateOfBirth: "1964-04-26T09:48:06 -01:00",
+    dateOfBirth: "1964-04-26T09:48:06",
   },
   {
     _id: "62acac4569686717f4aec582",
@@ -629,7 +629,7 @@ const appointments = [
     bookingReference: 38309650,
     nhsNumber: 18655674,
     special: "under-16-overseas",
-    dateOfBirth: "1990-05-22T11:09:53 -01:00",
+    dateOfBirth: "1990-05-22T11:09:53",
   },
   {
     _id: "62acac4584c76f43e141c22c",
@@ -639,7 +639,7 @@ const appointments = [
     bookingReference: 49236609,
     nhsNumber: 83980394,
     special: "hsc-worker",
-    dateOfBirth: "2013-09-13T05:42:47 -01:00",
+    dateOfBirth: "2013-09-13T05:42:47",
   },
   {
     _id: "62acac459ccfa52e1161d556",
@@ -649,7 +649,7 @@ const appointments = [
     bookingReference: 60716336,
     nhsNumber: 60835891,
     special: "hsc-worker",
-    dateOfBirth: "2020-12-15T03:29:08 -00:00",
+    dateOfBirth: "2020-12-15T03:29:08",
   },
   {
     _id: "62acac459ab89ae3316bfb00",
@@ -659,7 +659,7 @@ const appointments = [
     bookingReference: 33108339,
     nhsNumber: 39938660,
     special: "under-16-overseas",
-    dateOfBirth: "1982-04-20T05:26:32 -01:00",
+    dateOfBirth: "1982-04-20T05:26:32",
   },
   {
     _id: "62acac455811f7811852e291",
@@ -669,7 +669,7 @@ const appointments = [
     bookingReference: 84125218,
     nhsNumber: 77641957,
     special: "hsc-worker",
-    dateOfBirth: "2014-10-11T05:32:14 -01:00",
+    dateOfBirth: "2014-10-11T05:32:14",
   },
   {
     _id: "62acac45288be3590e0ac09d",
@@ -679,7 +679,7 @@ const appointments = [
     bookingReference: 39078233,
     nhsNumber: 73144025,
     special: "no-additional-checks",
-    dateOfBirth: "1955-11-28T09:14:53 -00:00",
+    dateOfBirth: "1955-11-28T09:14:53",
   },
   {
     _id: "62acac454e205931e9301241",
@@ -689,7 +689,7 @@ const appointments = [
     bookingReference: 91832832,
     nhsNumber: 44266806,
     special: "immunosupressed",
-    dateOfBirth: "1941-10-03T01:15:52 -01:00",
+    dateOfBirth: "1941-10-03T01:15:52",
   },
   {
     _id: "62acac45c6a28520b9e44033",
@@ -699,7 +699,7 @@ const appointments = [
     bookingReference: 51539460,
     nhsNumber: 23065056,
     special: "no-additional-checks",
-    dateOfBirth: "1994-02-28T03:27:17 -00:00",
+    dateOfBirth: "1994-02-28T03:27:17",
   },
   {
     _id: "62acac45a28dc11c87b13ea9",
@@ -709,7 +709,7 @@ const appointments = [
     bookingReference: 19486474,
     nhsNumber: 29394517,
     special: "immunosupressed",
-    dateOfBirth: "1955-07-06T03:31:44 -01:00",
+    dateOfBirth: "1955-07-06T03:31:44",
   },
   {
     _id: "62acac455a9ceb2d20318058",
@@ -719,7 +719,7 @@ const appointments = [
     bookingReference: 60017379,
     nhsNumber: 32619239,
     special: "immunosupressed",
-    dateOfBirth: "1958-06-08T06:11:02 -01:00",
+    dateOfBirth: "1958-06-08T06:11:02",
   },
   {
     _id: "62acac451fc828d3e9604d15",
@@ -729,7 +729,7 @@ const appointments = [
     bookingReference: 72828719,
     nhsNumber: 34180897,
     special: "hsc-worker",
-    dateOfBirth: "1986-08-23T08:38:54 -01:00",
+    dateOfBirth: "1986-08-23T08:38:54",
   },
   {
     _id: "62acac450c459fc6962ac379",
@@ -739,7 +739,7 @@ const appointments = [
     bookingReference: 18157835,
     nhsNumber: 56270991,
     special: "hsc-worker",
-    dateOfBirth: "1973-04-20T09:00:19 -01:00",
+    dateOfBirth: "1973-04-20T09:00:19",
   },
   {
     _id: "62acac45f1016820d21e70fe",
@@ -749,7 +749,7 @@ const appointments = [
     bookingReference: 13100060,
     nhsNumber: 69869145,
     special: "no-additional-checks",
-    dateOfBirth: "1959-05-15T09:34:59 -01:00",
+    dateOfBirth: "1959-05-15T09:34:59",
   },
   {
     _id: "62acac4591034a9f4a39fbe9",
@@ -759,7 +759,7 @@ const appointments = [
     bookingReference: 91529933,
     nhsNumber: 49378072,
     special: "no-additional-checks",
-    dateOfBirth: "1984-10-07T09:22:18 -01:00",
+    dateOfBirth: "1984-10-07T09:22:18",
   },
   {
     _id: "62acac450c7f0921c15e5529",
@@ -769,7 +769,7 @@ const appointments = [
     bookingReference: 11275084,
     nhsNumber: 30883282,
     special: "immunosupressed",
-    dateOfBirth: "1972-06-22T06:26:41 -01:00",
+    dateOfBirth: "1972-06-22T06:26:41",
   },
   {
     _id: "62acac4525fe733a3cf78803",
@@ -779,7 +779,7 @@ const appointments = [
     bookingReference: 90882228,
     nhsNumber: 54329982,
     special: "immunosupressed",
-    dateOfBirth: "1939-05-16T11:06:50 -01:00",
+    dateOfBirth: "1939-05-16T11:06:50",
   },
   {
     _id: "62acac45c09306183d8a5fde",
@@ -789,7 +789,7 @@ const appointments = [
     bookingReference: 53150324,
     nhsNumber: 14348929,
     special: "hsc-worker",
-    dateOfBirth: "1939-09-14T08:09:20 -01:00",
+    dateOfBirth: "1939-09-14T08:09:20",
   },
   {
     _id: "62acac458a00f6b89cca3d29",
@@ -799,7 +799,7 @@ const appointments = [
     bookingReference: 84622873,
     nhsNumber: 65558594,
     special: "hsc-worker",
-    dateOfBirth: "1953-09-24T06:38:35 -01:00",
+    dateOfBirth: "1953-09-24T06:38:35",
   },
   {
     _id: "62acac457012eedf438cf97c",
@@ -809,7 +809,7 @@ const appointments = [
     bookingReference: 59624573,
     nhsNumber: 14442506,
     special: "no-additional-checks",
-    dateOfBirth: "1962-04-08T04:06:27 -01:00",
+    dateOfBirth: "1962-04-08T04:06:27",
   },
   {
     _id: "62acac45f0e3b610ec15b0c8",
@@ -819,7 +819,7 @@ const appointments = [
     bookingReference: 96154905,
     nhsNumber: 24554971,
     special: "immunosupressed",
-    dateOfBirth: "1976-06-09T02:41:25 -01:00",
+    dateOfBirth: "1976-06-09T02:41:25",
   },
   {
     _id: "62acac4520e647ddd225d321",
@@ -829,7 +829,7 @@ const appointments = [
     bookingReference: 72636157,
     nhsNumber: 70085320,
     special: "hsc-worker",
-    dateOfBirth: "1939-02-05T08:01:04 -00:00",
+    dateOfBirth: "1939-02-05T08:01:04",
   },
   {
     _id: "62acac459c6a0db3e25f39e1",
@@ -839,7 +839,7 @@ const appointments = [
     bookingReference: 53651272,
     nhsNumber: 21504468,
     special: "no-additional-checks",
-    dateOfBirth: "1998-05-26T08:20:12 -01:00",
+    dateOfBirth: "1998-05-26T08:20:12",
   },
   {
     _id: "62acac45d94040ee6a48fd23",
@@ -849,7 +849,7 @@ const appointments = [
     bookingReference: 41187431,
     nhsNumber: 50845259,
     special: "hsc-worker",
-    dateOfBirth: "1939-08-03T09:20:49 -01:00",
+    dateOfBirth: "1939-08-03T09:20:49",
   },
   {
     _id: "62acac452dbb8bca9c9cee09",
@@ -859,7 +859,7 @@ const appointments = [
     bookingReference: 91004451,
     nhsNumber: 26401856,
     special: "under-16-overseas",
-    dateOfBirth: "2017-08-13T07:12:38 -01:00",
+    dateOfBirth: "2017-08-13T07:12:38",
   },
   {
     _id: "62acac45c2c61b67a910a9f2",
@@ -869,7 +869,7 @@ const appointments = [
     bookingReference: 72524247,
     nhsNumber: 18480792,
     special: "immunosupressed",
-    dateOfBirth: "1993-06-27T07:26:29 -01:00",
+    dateOfBirth: "1993-06-27T07:26:29",
   },
   {
     _id: "62acac45d143653e2797329e",
@@ -879,7 +879,7 @@ const appointments = [
     bookingReference: 38212203,
     nhsNumber: 34357931,
     special: "hsc-worker",
-    dateOfBirth: "2008-07-12T04:15:05 -01:00",
+    dateOfBirth: "2008-07-12T04:15:05",
   },
   {
     _id: "62acac45228d20ddabf6c5a6",
@@ -889,7 +889,7 @@ const appointments = [
     bookingReference: 52404552,
     nhsNumber: 36389458,
     special: "immunosupressed",
-    dateOfBirth: "1980-02-19T05:08:08 -00:00",
+    dateOfBirth: "1980-02-19T05:08:08",
   },
   {
     _id: "62acac457e3f297763b7e06e",
@@ -899,7 +899,7 @@ const appointments = [
     bookingReference: 73639355,
     nhsNumber: 96053195,
     special: "under-16-overseas",
-    dateOfBirth: "1995-11-19T08:19:13 -00:00",
+    dateOfBirth: "1995-11-19T08:19:13",
   },
   {
     _id: "62acac456f63a2a0ca6b590c",
@@ -909,7 +909,7 @@ const appointments = [
     bookingReference: 11060879,
     nhsNumber: 10698824,
     special: "hsc-worker",
-    dateOfBirth: "2016-02-24T05:32:13 -00:00",
+    dateOfBirth: "2016-02-24T05:32:13",
   },
   {
     _id: "62acac45f9850fdba0e18f74",
@@ -919,7 +919,7 @@ const appointments = [
     bookingReference: 24547742,
     nhsNumber: 21320870,
     special: "hsc-worker",
-    dateOfBirth: "1934-10-23T09:54:13 -00:00",
+    dateOfBirth: "1934-10-23T09:54:13",
   },
   {
     _id: "62acac45d46cca3c8027b9b6",
@@ -929,7 +929,7 @@ const appointments = [
     bookingReference: 86520193,
     nhsNumber: 19853317,
     special: "under-16-overseas",
-    dateOfBirth: "2006-05-16T07:36:58 -01:00",
+    dateOfBirth: "2006-05-16T07:36:58",
   },
   {
     _id: "62acac45d2cc83769986907e",
@@ -939,7 +939,7 @@ const appointments = [
     bookingReference: 89817063,
     nhsNumber: 64223485,
     special: "under-16-overseas",
-    dateOfBirth: "1930-03-10T04:38:48 -00:00",
+    dateOfBirth: "1930-03-10T04:38:48",
   },
   {
     _id: "62acac455e243a5042bbeefc",
@@ -949,7 +949,7 @@ const appointments = [
     bookingReference: 62398988,
     nhsNumber: 69933871,
     special: "under-16-overseas",
-    dateOfBirth: "1967-09-08T12:17:10 -01:00",
+    dateOfBirth: "1967-09-08T12:17:10",
   },
   {
     _id: "62acac4563215f73f9c53174",
@@ -959,7 +959,7 @@ const appointments = [
     bookingReference: 31837055,
     nhsNumber: 39469784,
     special: "no-additional-checks",
-    dateOfBirth: "2010-10-30T09:17:12 -01:00",
+    dateOfBirth: "2010-10-30T09:17:12",
   },
   {
     _id: "62acac456fb06dcaad966b67",
@@ -969,7 +969,7 @@ const appointments = [
     bookingReference: 72279843,
     nhsNumber: 45385186,
     special: "hsc-worker",
-    dateOfBirth: "2007-05-08T12:45:01 -01:00",
+    dateOfBirth: "2007-05-08T12:45:01",
   },
   {
     _id: "62acac458d0002c6829530e4",
@@ -979,7 +979,7 @@ const appointments = [
     bookingReference: 47427590,
     nhsNumber: 86133911,
     special: "immunosupressed",
-    dateOfBirth: "1948-01-14T01:22:28 -00:00",
+    dateOfBirth: "1948-01-14T01:22:28",
   },
   {
     _id: "62acac45f90c7b644d1896ff",
@@ -989,7 +989,7 @@ const appointments = [
     bookingReference: 52803706,
     nhsNumber: 85620573,
     special: "hsc-worker",
-    dateOfBirth: "1991-06-30T09:09:36 -01:00",
+    dateOfBirth: "1991-06-30T09:09:36",
   },
   {
     _id: "62acac45b3a18cf96cee353c",
@@ -999,7 +999,7 @@ const appointments = [
     bookingReference: 30919770,
     nhsNumber: 67514337,
     special: "no-additional-checks",
-    dateOfBirth: "1963-08-22T11:40:41 -01:00",
+    dateOfBirth: "1963-08-22T11:40:41",
   },
   {
     _id: "62acac45aa92c4dbd3980a7e",
@@ -1009,7 +1009,7 @@ const appointments = [
     bookingReference: 80834479,
     nhsNumber: 60854287,
     special: "immunosupressed",
-    dateOfBirth: "2010-09-03T07:00:13 -01:00",
+    dateOfBirth: "2010-09-03T07:00:13",
   },
 ];
 
@@ -1110,6 +1110,7 @@ function CheckInView() {
     setCheckbox(!checkbox);
   }
 
+  const dob = new Date(appointment.dateOfBirth).toLocaleDateString("en-GB");
   return (
     <>
       <h1 onClick={clickHandler}>Confirm check-in</h1>
@@ -1122,9 +1123,7 @@ function CheckInView() {
         </div>
         <div className="nhsuk-summary-list__row">
           <dt className="nhsuk-summary-list__key">Date of birth</dt>
-          <dd className="nhsuk-summary-list__value">
-            {appointment.dateOfBirth}
-          </dd>
+          <dd className="nhsuk-summary-list__value">{dob}</dd>
         </div>
 
         <div className="nhsuk-summary-list__row">
