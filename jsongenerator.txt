@@ -1,0 +1,14 @@
+https://json-generator.com/
+
+[
+  '{{repeat(5)}}',
+  {
+    _id: '{{objectId()}}',
+    time: '{{random("09", "10", "11", "12", "13", "14", "15", "16", "17", "18") + ":" + random("00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55" )}}',
+    firstName: '{{firstName()}}',
+    lastName: '{{surname()}}',
+    bookingReference: '{{integer(10000000, 99999999)}}',
+    nhsNumber: '{{integer(10000000, 99999999)}}',
+    special: '{{random("no-additional-checks", "under-16-overseas", "immunosupressed", "hsc-worker")}}'
+  }
+]
