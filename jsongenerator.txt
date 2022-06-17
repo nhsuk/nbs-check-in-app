@@ -1,7 +1,7 @@
 https://json-generator.com/
 
 [
-  '{{repeat(5)}}',
+  '{{repeat(100)}}',
   {
     _id: '{{objectId()}}',
     time: '{{random("09", "10", "11", "12", "13", "14", "15", "16", "17", "18") + ":" + random("00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55" )}}',
@@ -9,6 +9,7 @@ https://json-generator.com/
     lastName: '{{surname()}}',
     bookingReference: '{{integer(10000000, 99999999)}}',
     nhsNumber: '{{integer(10000000, 99999999)}}',
-    special: '{{random("no-additional-checks", "under-16-overseas", "immunosupressed", "hsc-worker")}}'
+    special: '{{random("no-additional-checks", "under-16-overseas", "immunosupressed", "hsc-worker")}}',
+    dateOfBirth: '{{date(new Date(1930, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss")}}'
   }
 ]
