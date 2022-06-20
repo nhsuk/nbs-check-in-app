@@ -29,7 +29,7 @@ export function Header() {
             className="nhsuk-header__transactional-service-name--link"
             href="https://www.nhs.uk/nhs-services/gps/how-to-register-with-a-gp-surgery/"
           >
-            Check a vaccination appointment
+            Check in a vaccination appointment
           </a>
         </div>
       </div>

@@ -30,9 +30,10 @@ export function Main() {
                   <CheckInView />
                 </Route>
                 <Route path="/">
-                  <h1>Select the person you want to check in</h1>
-                  <SearchPanel />
-                  <AppointmentTable />
+                  <h1>Check someone in</h1>
+                  <AppointmentTable>
+                    <SearchPanel />
+                  </AppointmentTable>
                 </Route>
               </Switch>
             </div>

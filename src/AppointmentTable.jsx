@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { ResultSorting } from "./ResultSorting";
 import { SearchSummary } from "./SearchSummary";
 
-export function AppointmentTable() {
+export function AppointmentTable({ children }) {
   const location = useLocation();
 
   const [sortByTime, setSortByTime] = useState(false);
@@ -47,8 +47,6 @@ export function AppointmentTable() {
 
   return (
     <>
-      <h2>Today's appointments</h2>
-
       <SearchSummary
         appointments={appointments}
         filteredAppointments={filteredAppointments}
@@ -60,6 +58,12 @@ export function AppointmentTable() {
         sortByTime={sortByTime}
         sortHandler={sortHandler}
       />
+
+      {children}
+
+      {/* <p>
+        <a href="#">A</a> B <a href="#">C</a> <a href="#">D</a> E
+      </p> */}
 
       {filteredAppointments && filteredAppointments.length > 0 && (
         <table className="table">

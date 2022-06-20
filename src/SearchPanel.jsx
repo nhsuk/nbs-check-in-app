@@ -12,7 +12,7 @@ export function SearchPanel() {
             </label>
           </h3>
           <input
-            className="nhsuk-input"
+            className="nhsuk-input nhsuk-input--width-20"
             id="search"
             name="search"
             type="text"
