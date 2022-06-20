@@ -10,7 +10,8 @@ import {
 import { useState } from "react";
 import appointments from "./appointments.json";
 import { SearchPanel } from "./SearchPanel";
-import { AppointmentList } from "./AppointmentList";
+// import { AppointmentList } from "./AppointmentList";
+import { AppointmentTable } from "./AppointmentTable";
 
 export function Main() {
   return (
@@ -33,7 +34,7 @@ export function Main() {
 
                   <SearchPanel />
 
-                  <AppointmentList />
+                  <AppointmentTable />
                 </Route>
               </Switch>
             </div>
@@ -107,23 +108,6 @@ function CheckedIn() {
     </>
   );
 }
-
-// no-additional-checks
-// no corona & identity confirmed
-
-// immunosupressed
-// warning - this person is immunosupressed they may need evidence
-// no corona & identity confirmed
-
-// under-16-overseas
-// warning - parent must be present
-// no corona & identity confirmed & parent present
-
-// hsc-worker
-// warning - must have proof of worker status
-// no corona & identity confirmed & proof of worker status
-
-//
 
 const ThingsToCheck = ({ variant, checkbox }) => {
   return (

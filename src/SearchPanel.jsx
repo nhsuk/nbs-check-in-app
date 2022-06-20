@@ -6,13 +6,13 @@ export function SearchPanel() {
     <>
       <form>
         <div className="nhsuk-form-group">
-          <h1 className="nhsuk-label-wrapper">
-            <label className="nhsuk-label nhsuk-label--l" htmlFor="search">
+          <h3 className="nhsuk-label-wrapper">
+            <label className="nhsuk-label" htmlFor="search">
               Search by name or booking reference
             </label>
-          </h1>
+          </h3>
           <input
-            className="nhsuk-input nhsuk-input--width-10"
+            className="nhsuk-input"
             id="search"
             name="search"
             type="text"
@@ -23,7 +23,6 @@ export function SearchPanel() {
           Search
         </button>
       </form>
-      <hr />
     </>
   );
 }
