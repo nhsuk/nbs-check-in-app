@@ -59,19 +59,21 @@ export function AppointmentTable() {
         sortHandler={sortHandler}
       />
 
-      <table className="table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Appointment time</th>
-          </tr>
-        </thead>
-        <tbody>
-          {orderedAppointments.map((item) => {
-            return <Row key={item._id} {...item} />;
-          })}
-        </tbody>
-      </table>
+      {filteredAppointments && filteredAppointments.length > 0 && (
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Appointment time</th>
+            </tr>
+          </thead>
+          <tbody>
+            {orderedAppointments.map((item) => {
+              return <Row key={item._id} {...item} />;
+            })}
+          </tbody>
+        </table>
+      )}
     </>
   );
 }
