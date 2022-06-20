@@ -12,6 +12,8 @@ import appointments from "./appointments.json";
 import { SearchPanel } from "./SearchPanel";
 // import { AppointmentList } from "./AppointmentList";
 import { AppointmentTable } from "./AppointmentTable";
+import { WarningBox } from "./WarningBox";
+import { Checkbox } from "./Checkbox";
 
 export function Main() {
   return (
@@ -25,15 +27,11 @@ export function Main() {
                   <CheckedIn />
                 </Route>
                 <Route path="/check-in">
-                  <>
-                    <CheckInView />
-                  </>
+                  <CheckInView />
                 </Route>
                 <Route path="/">
                   <h1>Select the person you want to check in</h1>
-
                   <SearchPanel />
-
                   <AppointmentTable />
                 </Route>
               </Switch>
@@ -114,19 +112,19 @@ const ThingsToCheck = ({ variant, checkbox }) => {
     <>
       <form>
         {variant === "immunosupressed" && (
-          <Warning
+          <WarningBox
             title="This person is immunosuppressed"
             body="The person you are checking in is immunosuppressed and should have their evidence ready if they have brought any with them."
           />
         )}
         {variant === "under-16-overseas" && (
-          <Warning
+          <WarningBox
             title="There must be a parent or guardian at this appointment"
             body="The person you are checking in is under 16 and must be accompanied by a parent or responsible person who is 18 years old or over"
           />
         )}
         {variant === "hsc-worker" && (
-          <Warning
+          <WarningBox
             title="This person is a health or social care worker"
             body="The person you are checking in must show you evidence that they are a health or social care worker in order to be checked in."
           />
@@ -191,37 +189,3 @@ const ThingsToCheck = ({ variant, checkbox }) => {
     </>
   );
 };
-
-function Checkbox({ unique, label }) {
-  return (
-    <div className="nhsuk-checkboxes__item">
-      <input
-        className="nhsuk-checkboxes__input"
-        id={unique}
-        name="example"
-        type="checkbox"
-        value="phone"
-      />
-      <label
-        className="nhsuk-label nhsuk-checkboxes__label"
-        htmlFor="example-2"
-      >
-        {label}
-      </label>
-    </div>
-  );
-}
-
-function Warning({ title, body }) {
-  return (
-    <div className="nhsuk-warning-callout">
-      <h3 className="nhsuk-warning-callout__label">
-        <span role="text">
-          <span className="nhsuk-u-visually-hidden">Important: </span>
-          {title}
-        </span>
-      </h3>
-      <p>{body}</p>
-    </div>
-  );
-}

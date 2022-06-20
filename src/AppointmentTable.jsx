@@ -2,6 +2,8 @@ import { useState } from "react";
 import sortBy from "lodash.sortby";
 import appointments from "./appointments.json";
 import { Link, useLocation } from "react-router-dom";
+import { ResultSorting } from "./ResultSorting";
+import { SearchSummary } from "./SearchSummary";
 
 export function AppointmentTable() {
   const location = useLocation();
@@ -69,7 +71,7 @@ export function AppointmentTable() {
           </thead>
           <tbody>
             {orderedAppointments.map((item) => {
-              return <Row key={item._id} {...item} />;
+              return <TableRow key={item._id} {...item} />;
             })}
           </tbody>
         </table>
@@ -78,40 +80,11 @@ export function AppointmentTable() {
   );
 }
 
-function ResultSorting({ filteredAppointments, sortByTime, sortHandler }) {
-  if (filteredAppointments.length < 2) return null;
-  return (
-    <p>
-      Appointments are sorted by {sortByTime ? "appointment time" : "last name"}
-      . You can also{" "}
-      <a onClick={sortHandler} href="#">
-        {sortByTime ? "sort by last name" : "sort by appointment time"}
-      </a>
-      .
-    </p>
-  );
-}
-
-function SearchSummary({ appointments, filteredAppointments, query }) {
-  if (appointments.length === filteredAppointments.length) {
-    return null;
-  }
-  if (filteredAppointments.length === 0)
-    return <p>No results found for "{query}"</p>;
-
-  return (
-    <p>
-      Showing {filteredAppointments.length}{" "}
-      {filteredAppointments.length > 1 ? "results" : "result"} for "{query}".
-    </p>
-  );
-}
-
-function Row({ _id, firstName, lastName, special, time }) {
+function TableRow({ _id, firstName, lastName, special, time }) {
   return (
     <tr>
       <td>
-        <Link to={"/check-in/" + _id} title={special}>
+        <Link to={"/check-in/" + _id} title={"Variant: " + special}>
           <b>{lastName}</b>, {firstName}
         </Link>
       </td>
