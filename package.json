@@ -2,6 +2,7 @@
   "name": "check-in-app-prototype",
   "version": "1.0.0",
   "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "npm run watch",
     "watch": "parcel src/index.html --open",

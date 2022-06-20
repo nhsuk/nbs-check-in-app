@@ -4,7 +4,11 @@ import { Link, useLocation } from "react-router-dom";
 
 export function AppointmentList() {
   const location = useLocation();
-  const query = location.search.split("?")[1].split("=")[1];
+
+  let query = "";
+  if (location.search.length > 0) {
+    query = location?.search?.split("?")[1].split("=")[1];
+  }
 
   const filteredAppointments = appointments.filter((appointment) => {
     return (
