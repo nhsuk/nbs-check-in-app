@@ -47,7 +47,8 @@ function SearchSummary({ appointments, filteredAppointments, query }) {
   if (appointments.length === filteredAppointments.length) {
     return null;
   }
-  if (filteredAppointments.length === 0) return <p>No results found</p>;
+  if (filteredAppointments.length === 0)
+    return <p>No results found for "{query}"</p>;
 
   return (
     <p>
