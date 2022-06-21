@@ -1,50 +1,10 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useLocation,
-} from "react-router-dom";
-
-import { useState } from "react";
-import appointments from "./appointments.json";
-import { SearchPanel } from "./SearchPanel";
-// import { AppointmentList } from "./AppointmentList";
-import { AppointmentTable } from "./AppointmentTable";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import appointments from "../assets/appointments.json";
 import { WarningBox } from "./WarningBox";
 import { Checkbox } from "./Checkbox";
 
-export function Main() {
-  return (
-    <>
-      <div className="nhsuk-width-container">
-        <main className="nhsuk-main-wrapper" id="maincontent" role="main">
-          <div className="nhsuk-grid-row">
-            <div className="nhsuk-grid-column-two-thirds">
-              <Switch>
-                <Route path="/checked-in">
-                  <CheckedIn />
-                </Route>
-                <Route path="/check-in">
-                  <CheckInView />
-                </Route>
-                <Route path="/">
-                  <h1>Check someone in</h1>
-                  <AppointmentTable>
-                    <SearchPanel />
-                  </AppointmentTable>
-                </Route>
-              </Switch>
-            </div>
-          </div>
-        </main>
-      </div>
-    </>
-  );
-}
-
-function CheckInView() {
+export function CheckInView() {
   const location = useLocation();
   const id = location.pathname.split("/")[2];
   const appointment = appointments.find((item) => item._id === id);
@@ -55,6 +15,7 @@ function CheckInView() {
   }
 
   const dob = new Date(appointment.dateOfBirth).toLocaleDateString("en-GB");
+
   return (
     <>
       <h1 onClick={clickHandler}>Confirm check-in</h1>
@@ -96,18 +57,6 @@ function CheckInView() {
     </>
   );
 }
-
-function CheckedIn() {
-  return (
-    <>
-      <h1>This person has been checked in</h1>
-      <Link to="/" className="nhsuk-button">
-        Back to start
-      </Link>
-    </>
-  );
-}
-
 const ThingsToCheck = ({ variant, checkbox }) => {
   return (
     <>

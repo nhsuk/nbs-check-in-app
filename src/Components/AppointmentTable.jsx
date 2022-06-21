@@ -1,6 +1,6 @@
 import { useState } from "react";
 import sortBy from "lodash.sortby";
-import appointments from "./appointments.json";
+import appointments from "../assets/appointments.json";
 import { Link, useLocation } from "react-router-dom";
 import { ResultSorting } from "./ResultSorting";
 import { SearchSummary } from "./SearchSummary";

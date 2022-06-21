@@ -13,7 +13,7 @@ export function LocationIndicator({ locationName }) {
           <nav className="location-indicator__navigation">
             <ul className="location-indicator__nav-links">
               <li className="location-indicator__item">
-                <a className="location-indicator__link" href="#">
+                <a className="location-indicator__link" href="#" onClick={e=>e.preventDefault()}>
                   Change location
                 </a>
               </li>
