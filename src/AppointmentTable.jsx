@@ -47,12 +47,6 @@ export function AppointmentTable({ children }) {
 
   return (
     <>
-      <SearchSummary
-        appointments={appointments}
-        filteredAppointments={filteredAppointments}
-        query={query}
-      />
-
       <ResultSorting
         filteredAppointments={filteredAppointments}
         sortByTime={sortByTime}
@@ -64,6 +58,12 @@ export function AppointmentTable({ children }) {
       {/* <p>
         <a href="#">A</a> B <a href="#">C</a> <a href="#">D</a> E
       </p> */}
+
+      <SearchSummary
+        appointments={appointments}
+        filteredAppointments={filteredAppointments}
+        query={query}
+      />
 
       {filteredAppointments && filteredAppointments.length > 0 && (
         <table className="table">
