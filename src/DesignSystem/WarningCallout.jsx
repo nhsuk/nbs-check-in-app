@@ -1,4 +1,4 @@
-export function WarningBox({ title, body }) {
+export function WarningCallout({ title, body }) {
   return (
     <div className="nhsuk-warning-callout">
       <h3 className="nhsuk-warning-callout__label">

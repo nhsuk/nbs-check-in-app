@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import appointments from "../assets/appointments.json";
-import { WarningBox } from "./WarningBox";
+import { WarningCallout } from "../DesignSystem/WarningCallout";
 import { Checkbox } from "./Checkbox";
 
 export function CheckInView() {
@@ -62,19 +62,19 @@ const ThingsToCheck = ({ variant, checkbox }) => {
     <>
       <form>
         {variant === "immunosupressed" && (
-          <WarningBox
+          <WarningCallout
             title="This person is immunosuppressed"
             body="The person you are checking in is immunosuppressed and should have their evidence ready if they have brought any with them."
           />
         )}
         {variant === "under-16-overseas" && (
-          <WarningBox
+          <WarningCallout
             title="There must be a parent or guardian at this appointment"
             body="The person you are checking in is under 16 and must be accompanied by a parent or responsible person who is 18 years old or over"
           />
         )}
         {variant === "hsc-worker" && (
-          <WarningBox
+          <WarningCallout
             title="This person is a health or social care worker"
             body="The person you are checking in must show you evidence that they are a health or social care worker in order to be checked in."
           />
