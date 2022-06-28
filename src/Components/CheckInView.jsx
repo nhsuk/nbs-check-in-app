@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import appointments from "../assets/appointments.json";
 import { WarningCallout } from "../DesignSystem/WarningCallout";
 import { Checkbox } from "./Checkbox";
+import { BackButton } from "./BackButton";
 
 export function CheckInView() {
   const location = useLocation();
@@ -54,6 +55,7 @@ export function CheckInView() {
       <Link to="/checked-in" className="nhsuk-button">
         Check this person in
       </Link>
+      <BackButton />
     </>
   );
 }
