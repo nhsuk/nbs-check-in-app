@@ -38,6 +38,13 @@ export function CheckInView() {
         </div>
 
         <div className="nhsuk-summary-list__row">
+          <dt className="nhsuk-summary-list__key">Appointment type</dt>
+          <dd className="nhsuk-summary-list__value">
+            {appointment.appointmentType}
+          </dd>
+        </div>
+
+        <div className="nhsuk-summary-list__row">
           <dt className="nhsuk-summary-list__key">Booking reference</dt>
           <dd className="nhsuk-summary-list__value">
             {appointment.bookingReference}

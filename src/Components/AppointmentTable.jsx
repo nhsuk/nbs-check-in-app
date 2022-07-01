@@ -70,7 +70,8 @@ export function AppointmentTable({ children }) {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Appointment time</th>
+              <th>Time</th>
+              <th>Type</th>
             </tr>
           </thead>
           <tbody>
@@ -84,7 +85,14 @@ export function AppointmentTable({ children }) {
   );
 }
 
-function TableRow({ _id, firstName, lastName, special, time }) {
+function TableRow({
+  _id,
+  firstName,
+  lastName,
+  special,
+  time,
+  appointmentType,
+}) {
   return (
     <tr>
       <td>
@@ -93,6 +101,9 @@ function TableRow({ _id, firstName, lastName, special, time }) {
         </Link>
       </td>
       <td>{time}</td>
+      <td>
+        <small>{appointmentType}</small>
+      </td>
     </tr>
   );
 }

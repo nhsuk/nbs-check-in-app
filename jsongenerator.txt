@@ -10,6 +10,8 @@ https://json-generator.com/
     bookingReference: '{{integer(10000000, 99999999)}}',
     nhsNumber: '{{integer(10000000, 99999999)}}',
     special: '{{random("no-additional-checks", "under-16-overseas", "immunosupressed", "hsc-worker")}}',
+    appointmentType: '{{random("Comirnaty10 Dose 1", "Comirnaty10 Dose 2", "Moderna Booster", "Moderna-Dose 1", "Moderna-Dose 2", "Overseas vaccination evidence check", "Oxford-AstraZeneca Booster", "Oxford-AstraZeneca General Dose 1", "Oxford-AstraZeneca General Dose 2", "Pfizer-BioNTech Booster", "Pfizer-BioNTech General Dose 1", "Pfizer-BioNTech General Dose 2")}}',
     dateOfBirth: '{{date(new Date(1930, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss")}}'
   }
 ]
+
